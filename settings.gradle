@@ -1,0 +1,23 @@
+pluginManagement {
+    repositories {
+        google()
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}
+
+plugins {
+    id 'org.gradle.toolchains.foojay-resolver-convention' version '0.8.0'
+}
+
+
+
+dependencyResolutionManagement {
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
+rootProject.name='openRPGator'
+include 'engine-core','engine-world','engine-map','engine-script','engine-network','engine-runtime','pak','renderer-api','renderer-desktop','dedicated-server','server-admin','map-editor','script-editor','desktop-client','android-client'

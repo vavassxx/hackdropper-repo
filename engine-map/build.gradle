@@ -1,0 +1,4 @@
+dependencies {
+    api project(':engine-world')
+    implementation project(':engine-core')
+}
